@@ -1,4 +1,5 @@
-svar = input('skriv siffror: ')
+svar = input('skriv pris: ')
+moms = float(input ('skriv moms:'))
 x = float(svar)
 y = x * 1.25
 print('priset är utan moms:', x)
