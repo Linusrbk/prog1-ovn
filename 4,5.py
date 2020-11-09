@@ -5,7 +5,8 @@ while höjd >= -0.1:
     while höjd >= 0.01:
         höjd = höjd * 0.7
         varv = varv+1
-        print('din boll har stutsat ',varv ,'gånger ')
+        
+    print('din boll har stutsat ',varv ,'gånger ')
     varv = 0
     
 
