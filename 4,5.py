@@ -1,6 +1,6 @@
 höjd = 0
 varv = 0
-while höjd >= -0.1:
+while höjd >= -0.01:
     höjd=float(input('hur långt ifråll golvet är din boll i meter stoppar koden ifall ett negativt tal?'))
     while höjd >= 0.01:
         höjd = höjd * 0.7
