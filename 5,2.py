@@ -1,4 +1,7 @@
+import string
 
-scannas=input('skriv ett ord')
-
-print()
+text = 'heh'
+if text.lower()[0] == text.lower()[-1]:
+    print('yes' )
+else:
+    print('jag dum')
